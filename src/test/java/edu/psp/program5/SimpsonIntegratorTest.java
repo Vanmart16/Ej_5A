@@ -10,6 +10,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 class SimpsonIntegratorTest {
 
+       
     private final SimpsonIntegrator integrator = new SimpsonIntegrator();
 
     /** Tabla 1 del Assignment Kit. */
