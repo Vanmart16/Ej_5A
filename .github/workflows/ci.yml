@@ -5,10 +5,12 @@ on:
     branches:
       - master
       - develop
-
+      - error
   pull_request:
     branches:
       - master
+      - develop
+     
 
 jobs:
   ci-cd:
